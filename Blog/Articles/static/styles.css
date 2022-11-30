@@ -1,0 +1,40 @@
+/* inicializar los valores basicos */
+/* * le indico que se lo aplique a todos los elementos */
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: steelblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+article {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  /* que se acomoden de manera horizontal */
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 30%;
+}
+article p {
+  margin: 1rem;
+}
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+article img {
+  max-width: 90%;
+}
+article footer {
+  font-size: 0.7rem;
+}
